@@ -38,38 +38,38 @@ def specific_help():
     # this is the switcher function that switches the 4 different cases and returns their string
     switcher = {
         1: "Team Help" \
-           "/matcreate [name] Create a team with a specified name"
-           "/matupdate [name] [new name] Update a teams name"
-           "/matdelete [name] Deletes the specified team"
-           "/majointeam [name] Join a specific team"
-           "/mateams Shows all available teams",
+           "/ma-team-create [name] Create a team with a specified name"
+           "/ma-team-update [name] [new name] Update a teams name"
+           "/ma-team-delete [name] Deletes the specified team"
+           "/ma-team-join [name] Join a specific team"
+           "/ma-teams Shows all available teams",
         2: "Project Help "
-           "/mapcreate [name] Create a project with a specified name"
-           "/mapupdate [name] [new name] Update a projects name"
-           "/mapdelete [name] Deletes the specified project"
-           "/majoinproject [name] Join a specific project"
-           "/maprojects Shows all your projects",
+           "/ma-project-create [name] Create a project with a specified name"
+           "/ma-project-update [name] [new name] Update a projects name"
+           "/ma-project-delete [name] Deletes the specified project"
+           "/ma-project-join [name] Join a specific project"
+           "/ma-projects Shows all your projects",
         3: "User Help"
-           "/mastatus View information about yourself"
-           "/matrack Toggle tracking the time you spend working",
+           "/ma-status View information about yourself"
+           "/ma-track Toggle tracking the time you spend working",
         4: "Manager Help"
-           "/mamstatus View the status of all users"
-           "/mammove [name of user] [name of new team] Move user to a new team",
+           "/ma-m-status View the status of all users"
+           "/ma-m-move [name of user] [name of new team] Move user to a new team",
         5: "Show all commands"
-           "/matcreate [name] Create a team with a specified name"
-           "/matupdate [name] [new name] Update a teams name"
-           "/matdelete [name] Deletes the specified team"
-           "/majointeam [name] Join a specific team"
-           "/mateams Shows all available teams"
-           "/mapcreate [name] Create a project with a specified name"
-           "/mapupdate [name] [new name] Update a projects name"
-           "/mapdelete [name] Deletes the specified project"
-           "/majoinproject [name] Join a specific project"
-           "/maprojects Shows all your projects"
-           "/mastatus View information about yourself"
-           "/matrack Toggle tracking the time you spend working"
-           "/mamstatus View the status of all users"
-           "/mammove [name of user] [name of new team] Move user to a new team"
+           "/ma-team-create [name] Create a team with a specified name"
+           "/ma-team-update [name] [new name] Update a teams name"
+           "/ma-team-delete [name] Deletes the specified team"
+           "/ma-team-join [name] Join a specific team"
+           "/ma-teams Shows all available teams"
+           "/ma-project-create [name] Create a project with a specified name"
+           "/ma-project-update [name] [new name] Update a projects name"
+           "/ma-project-delete [name] Deletes the specified project"
+           "/ma-project-join [name] Join a specific project"
+           "/ma-projects Shows all your projects"
+           "/ma-status View information about yourself"
+           "/ma-track Toggle tracking the time you spend working"
+           "/ma-m-status View the status of all users"
+           "/ma-m-move [name of user] [name of new team] Move user to a new team"
     }
     # Prints the function
     func = switcher.get(req['text'])
